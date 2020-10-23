@@ -1,5 +1,5 @@
 {
-    "ListenAddress":":8066",
+    "ListenAddress":":8067",
     "ThrottlePerSec":300,
     "ThrottleMemoryStoreSize":50000,
     "ThrottleVaryByHeader":"X-Forwarded-For",
@@ -23,11 +23,11 @@
     "AndroidPushSettings":[
         {
             "Type":"android",
-            "AndroidApiKey":""
+            "AndroidApiKey":"AAAAcI3dscY:APA91bHIKdzQ4Lf5Nnph5gI8BhICJxwiPXbEem5wT8SJjKeXBndopMeFrZiF-Bw6ciWOsBsdFK_M34qhV1JAh1HVWuXukk_fn2erJOcPJM2n0uN8lsIeiqEQ-J9mbUxkpmHn0RhWWuMd"
         },
         {
             "Type":"android_rn",
-            "AndroidApiKey":""
+            "AndroidApiKey":"AAAAcI3dscY:APA91bHIKdzQ4Lf5Nnph5gI8BhICJxwiPXbEem5wT8SJjKeXBndopMeFrZiF-Bw6ciWOsBsdFK_M34qhV1JAh1HVWuXukk_fn2erJOcPJM2n0uN8lsIeiqEQ-J9mbUxkpmHn0RhWWuMd"
         }
     ],
     "EnableConsoleLog": true,

@@ -29,29 +29,30 @@ type PushNotificationAck struct {
 }
 
 type PushNotification struct {
-	ID               string `json:"id"`
-	AckID            string `json:"ack_id"`
-	Platform         string `json:"platform"`
-	ServerID         string `json:"server_id"`
-	DeviceID         string `json:"device_id"`
-	Category         string `json:"category"`
-	Sound            string `json:"sound"`
-	Message          string `json:"message"`
-	Badge            int    `json:"badge"`
-	ContentAvailable int    `json:"cont_ava"`
-	TeamID           string `json:"team_id"`
-	ChannelID        string `json:"channel_id"`
-	PostID           string `json:"post_id"`
-	RootID           string `json:"root_id"`
-	ChannelName      string `json:"channel_name"`
-	Type             string `json:"type"`
-	SenderName       string `json:"sender_name"`
-	SenderID         string `json:"sender_id"`
-	OverrideUsername string `json:"override_username"`
-	OverrideIconURL  string `json:"override_icon_url"`
-	FromWebhook      string `json:"from_webhook"`
-	Version          string `json:"version"`
-	IsIDLoaded       bool   `json:"is_id_loaded"`
+	ID               string                 `json:"id"`
+	AckID            string                 `json:"ack_id"`
+	Platform         string                 `json:"platform"`
+	ServerID         string                 `json:"server_id"`
+	DeviceID         string                 `json:"device_id"`
+	Category         string                 `json:"category"`
+	Sound            string                 `json:"sound"`
+	Message          string                 `json:"message"`
+	Badge            int                    `json:"badge"`
+	ContentAvailable int                    `json:"cont_ava"`
+	TeamID           string                 `json:"team_id"`
+	ChannelID        string                 `json:"channel_id"`
+	PostID           string                 `json:"post_id"`
+	RootID           string                 `json:"root_id"`
+	ChannelName      string                 `json:"channel_name"`
+	Type             string                 `json:"type"`
+	SenderName       string                 `json:"sender_name"`
+	SenderID         string                 `json:"sender_id"`
+	OverrideUsername string                 `json:"override_username"`
+	OverrideIconURL  string                 `json:"override_icon_url"`
+	FromWebhook      string                 `json:"from_webhook"`
+	Version          string                 `json:"version"`
+	IsIDLoaded       bool                   `json:"is_id_loaded"`
+	AdditionalProps  map[string]interface{} `json:"additional_props"`
 }
 
 func (me *PushNotification) ToJson() string {
